@@ -15,12 +15,13 @@ thaumicinsurgence.config.category.modules=Modules
 thaumicinsurgence.config.category.modules.tooltip=Options to enable or disable integration
 tc.research_category.THAUMICINSURGENCE=Thaumic Insurgence
 
-tc.research_name.TI_InfusionIntercepter=Infusion Intercepter
-tc.research_text.TI_InfusionIntercepter=Fucking Azanor's "balance" since 2022!
+tc.research_name.TI_InfusionIntercepter=Infusion Interceptor
+tc.research_text.TI_InfusionIntercepter=Glitching Through the Matrix
+InfusionIntercepter.0=Throughout your studies and use of the Infusion Matrix, you've consistently faced the issue of just how slow that cube is. For some reason, it only ever seems to want to take a tiny trickle of one essentia type at once, and much slower than other forms of essentia diffusion.<BR><BR>No longer. You've formulated a device that improves on the Infusion Matrix to inject essentia directly into it as if were an alchemical construct, allowing much faster essentia throughput for less temporal alteration.<BR><BR>Place the intercepter directly below your infusion altar's center pedestal; it will accept essentia through its bottom face via pipes, Essentia Pumps, Essentia Providers...
+
 
 tc.research_name.TI_ThaumicInterfacer=Madman's Lens
 tc.research_text.TI_ThaumicInterfacer=Seeing between the cracks
-InfusionIntercepter.1=Do you hate how slow infusion is? Are you sick and tired of the lag associated with WAing it? WELL DO I HAVE THE SOLUTION FOR YOU!!! FOR ONE LOW LOW PAYMENT OF [2000 warp] I CAN JAILBREAK YOUR INFUSION MATRIX FOR YOU AND ALLOW IT TO ACCEPT THE ESSENTIA PROVIDER!!! Place the intercepter directly below your infusion altar's center pedestal, it takes essentia from the bottom face.
 
 
 
@@ -31,10 +32,11 @@ tc.research_name.TI_SanitizingSoapBeta=Alastor's Soap
 tc.research_text.TI_SanitizingSoapBeta=Made from Azanor's tears
 
 unintelligbleLaughter=I USED TO BE NOTHING BUT THE E_MAIL GUY, NOW I'M THE [[It Burns! Ow! Stop! Help Me! It Burns!]] GUY!                                                [[Amazed at thi5 amazing transformation? You too can]] HAVE A [[Communion]] WITH [[Unintelligble Laughter]]
-SoapAlpha.1=[Insert punchline here] boosts the base chance for normal warp removal to 50% from 33%, so now you can guarantee normal warp removal!
-SoapBeta.1=Do you have perm warp that induces constant nightmares foreboding eldritch horrors rending your flesh from your bones? Have you grown a cloaca? Well I have the solution for you!  For the low low price of your [[soul]] you can have a [[miniscule]] chance to lower your perm warp by 1 at the low low price of [[2 normal]]                             Warning: This product will cause you to develop 2 points of temp warp for every failed attempt to remove perm warp. Purchase now at [[hyperlink blocked]]!
 
-ThaumicInterfacer.1=You're not sure where you found this design. It looks like an early attempt at making or modifying a thaumometer, hence your working name for it. The device seems to show something, but not what a properly made one does.                             It seems like the work of someone tinkering with infusion, given its method of creation and its reaction to runic matrices. Probably just a curiosity, for the average thaumaturge not tinkering with the innate fundamentals of infusion.                             This likely won't help you on your journey young thaumaturge.
+SoapAlpha.0=Every time you tried to scrub the dirt of madness off with basic Sanitizing Soap and failed, you've wondered: how could you make it stronger? You've found simply adding even more Ordo and Sano essentia to rudimentary soap allows it to scour away Warp 1.5 times as well. <BR><BR> In a bath of Purifying Liquid enough to ward yourself against warp, and still have some left to stand in, this formula consistently clears away a bit of that annoying sticky warp, all the time.
+SoapBeta.0=You scrub and scrub, but no amount of soap could cleanse you from the revelations of your research.<BR>Before now.<BR><BR>A modification to your new-and-improved soap formula yields this odd variation: clarifying your forbidden knowledge, but leaving a bit more warp behind. This doesn't always work - about 1 in 10 times dry, or 4 in 10 in a nice, purifying bath.
+
+ThaumicInterfacer.0=You're not sure where you found this design. It looks like an early attempt at making or modifying a thaumometer, hence your working name for it. The device seems to show something, but not what a properly made one does.                             It seems like the work of someone tinkering with infusion, given its method of creation and its reaction to runic matrices. Probably just a curiosity, for the average thaumaturge not tinkering with the innate fundamentals of infusion.                             This likely won't help you on your journey young thaumaturge.
 
 tc.research_name.TI_DeliciousKromer=[[Funky]] LITTLE [[Worm]]
 tc.research_text.TI_DeliciousKromer=THIS IS [One Purchase] YOU WILL [Regret] FOR THE REST OF YOUR LIFE!
