@@ -47,7 +47,7 @@ public class ItemThaumicInterfacer extends Item {
             if (matrix instanceof TileInfusionMatrix) {
 
                 String[] users = MinecraftServer.getServer().getConfigurationManager().getAllUsernames();
-                player.addChatMessage(new ChatComponentText("That's a big ass mudspaw right der"));
+                player.addChatMessage(new ChatComponentText("This runic matrix appears to be shaped like a runic matrix. How fascinating."));
                 player.addChatMessage(new ChatComponentText(users[0]));
                 player.addChatMessage(
                         new ChatComponentText(
@@ -83,7 +83,7 @@ public class ItemThaumicInterfacer extends Item {
                                         + " slot four: "
                                         + player.getEquipmentInSlot(4)));
             } else {
-                player.addChatMessage(new ChatComponentText("COCK A DOODLE DO MOTHER FUCKER"));
+                player.addChatMessage(new ChatComponentText("This doesn't seem to reveal anything special."));
             }
         }
 
