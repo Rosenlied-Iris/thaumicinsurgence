@@ -296,8 +296,13 @@ public class ThaumcraftHelper implements IModHelper {
                 new ResourceLocation(VersionInfo.ModID, "textures/items/silverwood_filter.png"),
                 new ResourceLocation(VersionInfo.ModID, "textures/gui/eldritch_bg.png"));
         ResearchItem infusionIntercepterPage;
-        ResearchPage intercepter1, intercepter2;
-
+        ResearchPage intercepter0;
+        ResearchPage intercepter1;
+        // multiple pages as
+        // ResearchPage InfusionIntercepter.0, InfusionIntercepter.1;
+        // fairly certain that may have caused a failure to recognize
+        
+        
         ResearchItem redCrownPage;
         ResearchPage redCrown1;
 
@@ -306,12 +311,12 @@ public class ThaumcraftHelper implements IModHelper {
         ResearchPage thaumicInterface2;
 
         ResearchItem soapAlphaPage;
+        ResearchPage soapAlpha0;
         ResearchPage soapAlpha1;
-        ResearchPage soapAlpha2;
 
         ResearchItem soapBetaPage;
+        ResearchPage soapBeta0;
         ResearchPage soapBeta1;
-        ResearchPage soapBeta2;
 
         ResearchItem littleSponge;
         ResearchPage unintelligbleLaughter;
@@ -373,23 +378,23 @@ public class ThaumcraftHelper implements IModHelper {
                 0,
                 new ItemStack(Config.hyperLinkBlocked));
 
-        intercepter1 = new ResearchPage("InfusionIntercepter.1");
-        intercepter2 = new ResearchPage(infusionIntercepter);
+        intercepter0 = new ResearchPage("InfusionIntercepter.0");
+        intercepter1 = new ResearchPage(infusionIntercepter);
 
         redCrown1 = new ResearchPage("RedCrown.1");
 
         thaumicInterfacer1 = new ResearchPage("ThaumicInterfacer.1");
         thaumicInterface2 = new ResearchPage(thaumicInterfacer);
 
-        soapAlpha1 = new ResearchPage("SoapAlpha.1");
+        soapAlpha1 = new ResearchPage("SoapAlpha.0");
         soapAlpha2 = new ResearchPage(soapAlpha);
-        soapBeta1 = new ResearchPage("SoapBeta.1");
+        soapBeta1 = new ResearchPage("SoapBeta.0");
         soapBeta2 = new ResearchPage(soapBeta);
 
         unintelligbleLaughter = new ResearchPage("unintelligbleLaughter");
         shootForTheSky = new ResearchPage(bigShot);
 
-        infusionIntercepterPage.setPages(intercepter1, intercepter2);
+        infusionIntercepterPage.setPages(intercepter0, intercepter1);
         infusionIntercepterPage.setParents("INFUSION");
 
         redCrownPage.setPages(redCrown1);
@@ -398,10 +403,10 @@ public class ThaumcraftHelper implements IModHelper {
         thaumicInterfacerPage.setPages(thaumicInterfacer1, thaumicInterface2);
         thaumicInterfacerPage.setParents("INFUSION");
 
-        soapAlphaPage.setPages(soapAlpha1, soapAlpha2);
+        soapAlphaPage.setPages(soapAlpha0, soapAlpha1);
         soapAlphaPage.setParents("SANESOAP");
 
-        soapBetaPage.setPages(soapBeta1, soapBeta2);
+        soapBetaPage.setPages(soapBeta0, soapBeta1);
         soapBetaPage.setParents("TI_SanitizingSoapAlpha");
 
         littleSponge.setPages(unintelligbleLaughter, shootForTheSky);
